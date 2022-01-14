@@ -1,0 +1,6 @@
+modification sur local: 
+après les modification sur local: terminal>
+
+git add .
+git commit -m "modification abdrr"
+git push -u origin main

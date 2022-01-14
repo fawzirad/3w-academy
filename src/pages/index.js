@@ -19,10 +19,11 @@ const Home = () => {
   const toggle = () => {
     setIsOpen(!isOpen);
   };
+//modification abdrr
 
   return (
     <>
-      <Sidebar isOpen={isOpen} toggle={toggle} />
+      <Sidebar isOpen={isOpen} toggle={toggle} /> 
       <Navbar toggle={toggle} />
       <HeroSection />
       <InfoSection {...homeObjOne} />
