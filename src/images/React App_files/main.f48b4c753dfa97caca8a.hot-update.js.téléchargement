@@ -1,0 +1,26 @@
+webpackHotUpdate("main",{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/ImageUpload/ImageUpload.css":
+/*!*******************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/ImageUpload/ImageUpload.css ***!
+  \*******************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, ".post__create {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: center;\r\n    margin-top: 100px;\r\n    \r\n}\r\n\r\n.post__create h1 {\r\n    font-size: 30px;\r\n    text-transform: uppercase;\r\n}\r\n\r\n.imageupload {\r\n    display: flex;\r\n    justify-content: center;\r\n    flex-direction: column;\r\n    width: 50%;\r\n    margin: 10px auto;\r\n    background-color: rgb(235, 235, 235);\r\n    border: 1px solid lightgray;\r\n    border-radius: 8px;\r\n    padding: 15px;\r\n}\r\n\r\n\r\n.imageupload input {\r\n    border: 1px solid lightgray;\r\n    border-radius: 4px;\r\n    margin: 10px;\r\n    padding: 10px;\r\n    font-size: 15px;\r\n}\r\n\r\n\r\n.button{\r\n    background-color: rebeccapurple;\r\n}\r\n\r\n\r\n.imageupload__progress {\r\n    width: 100%;\r\n}", "",{"version":3,"sources":["webpack://src/components/ImageUpload/ImageUpload.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,uBAAuB;IACvB,iBAAiB;;AAErB;;AAEA;IACI,eAAe;IACf,yBAAyB;AAC7B;;AAEA;IACI,aAAa;IACb,uBAAuB;IACvB,sBAAsB;IACtB,UAAU;IACV,iBAAiB;IACjB,oCAAoC;IACpC,2BAA2B;IAC3B,kBAAkB;IAClB,aAAa;AACjB;;;AAGA;IACI,2BAA2B;IAC3B,kBAAkB;IAClB,YAAY;IACZ,aAAa;IACb,eAAe;AACnB;;;AAGA;IACI,+BAA+B;AACnC;;;AAGA;IACI,WAAW;AACf","sourcesContent":[".post__create {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: center;\r\n    margin-top: 100px;\r\n    \r\n}\r\n\r\n.post__create h1 {\r\n    font-size: 30px;\r\n    text-transform: uppercase;\r\n}\r\n\r\n.imageupload {\r\n    display: flex;\r\n    justify-content: center;\r\n    flex-direction: column;\r\n    width: 50%;\r\n    margin: 10px auto;\r\n    background-color: rgb(235, 235, 235);\r\n    border: 1px solid lightgray;\r\n    border-radius: 8px;\r\n    padding: 15px;\r\n}\r\n\r\n\r\n.imageupload input {\r\n    border: 1px solid lightgray;\r\n    border-radius: 4px;\r\n    margin: 10px;\r\n    padding: 10px;\r\n    font-size: 15px;\r\n}\r\n\r\n\r\n.button{\r\n    background-color: rebeccapurple;\r\n}\r\n\r\n\r\n.imageupload__progress {\r\n    width: 100%;\r\n}"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ })
+
+})
+//# sourceMappingURL=main.f48b4c753dfa97caca8a.hot-update.js.map
