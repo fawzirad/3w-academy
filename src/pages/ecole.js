@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
 import { ecole1 } from "../components/InfoSection/Data";
@@ -10,12 +10,13 @@ import Campus from "../components/Campus";
 
 const Ecole = () => {
   const [isOpen, setIsOpen] = useState(false);
-
+  const myref = useRef(null);
+  window.scrollTo(0, myref.offsetTop);
   const toggle = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <>
+    <div ref={myref}>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <NavbarInterne toggle={toggle} />
       <Header />
@@ -23,7 +24,7 @@ const Ecole = () => {
       <Mission />
       <Campus />
       <Footer />
-    </>
+    </div>
   );
 };
 
